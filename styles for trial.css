@@ -1,0 +1,38 @@
+div.parent-container-for-ul {
+  background-color: black;
+  /* width: 1000px; */
+  height: 1000px;
+}
+
+div.order-now-button-border-radius-50px a:hover,
+div.order-now-button-border-radius-50px a:link,
+div.order-now-button-border-radius-50px a:visited,
+div.order-now-button-border-radius-50px a:active,
+div.order-now-button-border-radius-50px a:focus {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid white;
+  width: 174px;
+  height: 50px;
+  padding: 18px 2px; */
+  width: auto;
+}
+
+.order-now-button-border-radius-50px {
+    border-radius: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 50px;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 24px;
+  border: 1px solid white;
+  width: 174px;
+  height: 50px;
+  /* padding: 18px 2px; */
+  /* width: auto; */
+}
+
+
+
