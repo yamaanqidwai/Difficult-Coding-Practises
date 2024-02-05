@@ -1,7 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 div.parent-container-for-ul {
   background-color: black;
   /* width: 1000px; */
   height: 1000px;
+  padding-top: 50px !important;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0px -15px;
+  padding: 0px;
+}
+
+div.parent-container-for-ul li {
+  text-align: center;
+  list-style-type: none;
+
 }
 
 div.order-now-button-border-radius-50px a:hover,
@@ -11,15 +30,10 @@ div.order-now-button-border-radius-50px a:active,
 div.order-now-button-border-radius-50px a:focus {
   text-decoration: none;
   color: white;
-  /* border: 1px solid white;
-  width: 174px;
-  height: 50px;
-  padding: 18px 2px; */
-  width: auto;
 }
 
 .order-now-button-border-radius-50px {
-    border-radius: 50px;
+  border-radius: 50px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -30,9 +44,34 @@ div.order-now-button-border-radius-50px a:focus {
   border: 1px solid white;
   width: 174px;
   height: 50px;
-  /* padding: 18px 2px; */
-  /* width: auto; */
 }
 
+.img-figure-white {
+  /* background-color: #ffffff; */
+  width: 280px;
+  height: 140px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
 
+.img-figure-white a {
+  padding: 0;
+  margin: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 
+.img-figure-white img {
+  box-sizing: border-box;
+  object-fit: contain;
+  /* duo of above 2 properties solved 50% of the problem */
+  width: 100%;
+  display: block;
+  height: 100%;
+  /* This combo completely solved the problem */
+  background-color: #ffff;
+  padding: 0px 19px;
+  border-radius: 3px;
+}
