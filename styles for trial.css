@@ -13,14 +13,17 @@ div.parent-container-for-ul {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  margin: 0px -15px;
-  padding: 0px;
+  margin: 0px -15px;  
+}
+
+div.parent-container-for-ul ul {
+  display: flex;
 }
 
 div.parent-container-for-ul li {
   text-align: center;
   list-style-type: none;
-
+  padding: 0 15px;
 }
 
 div.order-now-button-border-radius-50px a:hover,
